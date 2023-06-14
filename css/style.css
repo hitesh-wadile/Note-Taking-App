@@ -12,13 +12,13 @@ body {
     background: white;
     height:100vh;
     width: 15vw;
-    border-right: 1px solid #abababeb;
+    border-right: 1px solid #959aa3;
 }
 
 
 .sign-up{
     display: flex;
-    border-bottom: 1px solid #abababeb;
+    border-bottom: 1px solid #959aa3;
     align-items: center;
     justify-content: center;
 }
@@ -39,24 +39,26 @@ button{
 }
 
 .nav-elements{
+    border-bottom: 1px solid #959aa3;
+}
+
+.create{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-/* .main-elements{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
-.main-items ul{
+.main-items{
     display: flex;
     flex-direction: column;
-    text-decoration: none;
+    align-items: left;
 }
 
-.main-items ul li {
+.main-items a{
     text-decoration: none;
+    margin: 3px;
+    padding: 3px 20px;
+    font-family: 'DM Sans', sans-serif;
 }
+
