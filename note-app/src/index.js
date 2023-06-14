@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-// ReactDOM.render(<App />,document.getElementById("root"));
+import App from "./App";
 const root = ReactDOM.createRoot(
     document.getElementById('root')
 );
-const element = <h1>Hello, world</h1>;
-root.render(element);
+// const element = <h1 className="decoration-orange-600 text-3xl font-bold underline">Hello, world</h1>;
+// root.render(element);
+root.render(<App />)
