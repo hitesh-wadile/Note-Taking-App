@@ -1,2 +1,0 @@
-# Note-Taking-App
-
